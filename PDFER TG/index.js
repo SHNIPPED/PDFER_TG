@@ -44,9 +44,6 @@ bot.on('message', async msg => {
         catch (error) { bot.sendMessage(chatId, "Ошибка" + error) }
     }
 
-    return bot.sendMessage(chatId, 'Попробуйте использовать команду /start');
-
-
 })
 
 
